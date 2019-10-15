@@ -1,0 +1,43 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "11.9.0",
+    "npm": "6.8.0"
+  },
+  "description": "universe nodemailer api",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/universelabs/universe-nodemailer.git"
+  },
+  "homepage": ".",
+  "bugs": {
+    "url": "https://github.com/universelabs/universe-nodemailer/issues/new"
+  },
+  "author": "Guy Lepage <guylepage3@gmail.com> (http://lepage.cc)",
+  "contributors": {
+    "url": "https://github.com/universelabs/universe-nodemailer/graphs/contributors"
+  },
+  "private": true,
+  "main": "server.js",
+  "keywords": [
+    "express",
+    "server"
+  ],
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "dev": "npm run server"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemailer": "6.3.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
